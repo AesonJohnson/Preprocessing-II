@@ -168,6 +168,24 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+.navigation {
+  padding: 20px 0;
+  border-bottom: 2px dashed #C0C0C0;
+}
+.navigation .navcontent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+.navigation .navcontent .navlinks a {
+  margin-right: 20px;
+  font-size: 1.6rem;
+  color: #212529;
+  text-decoration: none;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
@@ -224,4 +242,7 @@ img {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.topcontent {
+  margin-top: 30px;
 }
